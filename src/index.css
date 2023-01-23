@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background: whitesmoke;
+    
+}
+.userIcon{
+    font-size: 150px;
+    margin-bottom: 10px;
+}
+.iconPlaceholder{
+    position: absolute;
+    margin-left: 11px;
+    padding-right: 10px;
+    border-right: solid rgb(88, 88, 88) 1px;;
+}
+.loginBox{
+    width: 350px;
+    padding: 40px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(13, 110, 253, 0.3), rgb(13, 110, 253, 0.1));
+    border: solid rgb(88, 88, 88) 2px;
 }
